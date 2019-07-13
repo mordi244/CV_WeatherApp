@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* centering the map element*/
+.center {
+    margin: 0 auto;
+    width: 90%;
+    height: 70%;
+    padding: 1rem;
+    position: relative;
+    border:2px rgba(128, 128, 128, 0.479) solid;
+}
+/* container to wrap the map */
+.container {
+    margin: 0;
+    position: relative;
+    overflow: auto;
+    display: flex;
+}
+/* given the map width and height*/
+#map {
+    height: 100%;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+}
+/* content for the weather info window*/
+.content {
+    margin: 1rem;
+    width: 25em;
+    height: 17em;
+    font-size: 1rem;
+}
+.content img {
+    width: 15%;
+    height: 20%;
+}
+.spnWeather{
+    font-weight: bold;
+}
+/* positioning to search text field*/
+#floating-panel {
+    position: absolute;
+    top: 1rem;
+    left: 38%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 0.2rem;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+/* positioning footer */
+footer {
+    margin-top:3%;
+    bottom: 0;
+    text-align: center;
+}
